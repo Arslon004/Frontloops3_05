@@ -1,0 +1,59 @@
+.payment_information{
+  width: 55%;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.payment_information{
+  padding: 35px 30px 30px;
+}
+.payment_information-title{
+  margin-bottom: 42px;
+  font-size: 1.6rem;
+}
+form label{
+  display: inline-block;
+  color: #acabaa;
+  margin-bottom: 10px;
+}
+form input{
+  padding: 13px 0 13px 11px;
+  color: #aaa;
+  width: 100%;
+  border:  1px solid #dedede;
+  outline: none;
+}
+.boxes{
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxes .box:first-child{
+  width: 55%;
+}
+.boxes .box:nth-child(2),.boxes .box:nth-child(3){
+  width: 19%;
+}
+@media only screen and (max-width:1000px){
+  .payment_information{
+    width: 48%;
+  }
+}
+@media only screen and (max-width:800px){
+  .payment_information{
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width:500px){
+  .boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+.boxes .box:first-child{
+  width: 100%;
+}
+.boxes .box:nth-child(2),.boxes .box:nth-child(3){
+  width: 100%;
+}
+}

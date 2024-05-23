@@ -1,0 +1,23 @@
+.billing_adress{
+  margin-top: 30px;
+  width: 55%;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.billing_adress-title{
+  padding: 35px 0 32px 32px;
+  font-size: 1.5rem;
+}
+.billing_adress-radio{
+padding: 28px 0 28px 32px;
+}
+@media only screen and (max-width:1000px){
+  .billing_adress{
+    width: 48%;
+  }
+}
+@media only screen and (max-width:800px){
+  .billing_adress{
+    width: 90%;
+  }
+}

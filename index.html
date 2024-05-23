@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loops3_03</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+  <p>Cart - customer Information - Shiping Method - <span>Payment Method</span></p>
+  <div class="wrapper">
+    <div class="payment_information">
+      <h2 class="payment_information-title">Payment information</h2>
+      <form action="">
+        <label for="card_number">Card Number</label>
+        <input type="number" placeholder="**** **** **** ****" id="card_number">
+
+        <div class="boxes">
+          <div class="box">
+            <label for="card-Holder">Card Holder</label>
+            <input type="text" placeholder="Michael Jordan" id="card-Holder">
+          </div>
+          <div class="box">
+            <label for="exp-date-Holder">Exp date</label>
+            <input type="date" placeholder="03/19" id="exp-date-Holder">
+          </div>
+          <div class="box">
+            <label for="cvc">cvc</label>
+            <input type="number" placeholder="****" id="cvc">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="chocolate_bar">
+      <header>
+        <div class="header_left">
+          <img src="images/order.jpg" alt="">
+          <p>Chocolate bar</p>
+        </div>
+        <div class="header_right">$2.49</div>
+      </header>
+      <hr>
+      <table>
+        <tbody>
+            <tr class="first_tr">
+              <td>Subtotal</td>
+              <td>$4.98</td>
+            </tr>
+            <tr>
+              <td>Shipping</td>
+              <td>$3.00</td>
+            </tr>
+        </tbody>
+      </table>
+      <hr>
+      <table>
+        <tbody>
+          <tr>
+            <td>Total</td>
+            <td class="bold">$4.98</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="billing_adress">
+      <h2 class="billing_adress-title">Billing address</h2>
+
+      <div class="billing_adress-radio">
+        <input type="radio" id="radio1" name="drone"  />
+        <label for="radio1">Same as the shipping address</label>
+      </div>
+<hr>
+      <div class="billing_adress-radio">
+        <input type="radio" id="radio2" name="drone"  />
+        <label for="radio2">Use a different billling address</label>
+      </div>
+
+    </div>
+  </div>
+  <div class="bottom">
+    <a href="#">Return to shipping method</a>
+    <button>Complete order</button>
+  </div>
+</div><!--container-->
+</body>
+
+</html>
